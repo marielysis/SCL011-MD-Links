@@ -26,9 +26,18 @@
     },
     "homepage": "https://github.com/martcamila1/SCL011-MD-Links#readme",
     "dependencies": {
+        "babel": "^6.23.0",
         "eslint": "^6.6.0",
         "eslint-plugin-jest": "^23.0.4",
+        "filehound": "^1.17.3",
         "jest": "^24.9.0",
-        "markdown-link-extractor": "^1.2.2"
+        "markdown": "^0.5.0",
+        "markdown-link-extractor": "^1.2.2",
+        "node-fetch": "^2.6.0",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.3",
+        "eslint-plugin-babel": "^5.3.0"
     }
 }
